@@ -1,65 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<title>Justin Huber</title>
-
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="author" content="Justin Huber">
-
-	<meta property="og:type" content="article">
-	<meta property="og:title" content="Justin Huber">
-	<meta property="og:site_name" content="Justin Huber">
-	<meta property="og:image" content="assets/images/profile.jpg">
-	<meta property="og:image:type" content="image/jpg">
-	<meta property="og:image:width" content="1024">
-	<meta property="og:image:height" content="1024">
-	<meta property="og:locale" content="en_US">
-
-	<link rel="icon" type="image/jpg" href="assets/images/profile.jpg" sizes="32x32">
-
-	<!-- Google Font -->
-	<link
-		href='http://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
-		rel='stylesheet' type='text/css'>
-
-	<!-- FontAwesome JS-->
-	<script type="text/javascript" src="assets/plugins/font-awesome/js/fontawesome-all.min.js"></script>
-
-	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css">
-</head>
-
-<body>
-	<header class="header">
-		<div class="top-bar theme-bg-primary-darken">
-			<div class="container-fluid">
-				<nav class="navbar navbar-expand-lg navbar-dark position-relative">
-
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-						aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<ul class="social-list list-inline mb-0">
-						<li class="list-inline-item">
-							<a class="text-white" href="https://www.linkedin.com/in/justhube" target="_blank">
-								<i class="fab fa-linkedin fa-fw"></i>
-							</a>
-						</li>
-						<li class="list-inline-item">
-							<a class="text-white" href="https://github.com/justin-huber" target="_blank">
-								<i class="fab fa-github fa-fw"></i>
-							</a>
-						</li>
-					</ul>
-					<!--//social-list-->
-
-					<div class="collapse navbar-collapse text-uppercase" id="navigation">
-						<ul class="navbar-nav ml-lg-auto">
-							
+{% extends "base.html" %}
+{% block pages %}
 							<li class="nav-item active mr-lg-3">
 								<a class="nav-link" href="/">About<span class="sr-only">(current)</span></a>
 							</li>
@@ -72,17 +12,8 @@
 							<li class="nav-item mr-lg-3">
 								<a class="nav-link" href="contact.html">Contact</a>
 							</li>
-
-						</ul>
-						<span id="slide-line"></span>
-					</div>
-				</nav>
-			</div>
-			<!--//container-->
-		</div>
-		<!--//top-bar-->
-
-		
+{% endblock %}
+{% block bio %}
 		<div class="header-intro theme-bg-primary text-white py-5">
 			<div class="container">
 				<div class="profile-teaser media flex-column flex-md-row">
@@ -103,11 +34,8 @@
 			<!--//container-->
 		</div>
 		<!--//header-intro-->
-
-	</header>
-	<!--//header-->
-
-	
+{% endblock %}
+{% block content %}
 	<section class="skills-section section py-5">
 		<div class="container">
 			<h3 class="section-title font-weight-bold text-center mb-3">Background</h3>
@@ -482,26 +410,4 @@
 		</div>
 		<!--//container-->
 	</section>
-
-
-	<footer class="footer text-light text-center py-2" style="position: fixed;
-																bottom: 0;
-																width: 100%;">
-		<small class="copyright">&copy;2016 vatsalshah.in </small>
-	</footer>	
-
-	<!-- Javascript -->
-	<script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-
-	<!--Page Specific JS -->
-	<script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script>
-	<script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>
-
-	<!-- Custom JS -->
-	<script type="text/javascript" src="assets/js/main.js"></script>
-	<script type="text/javascript" src="assets/js/isotope-custom.js"></script>
-
-</body>
-
-</html>
+{% endblock %}

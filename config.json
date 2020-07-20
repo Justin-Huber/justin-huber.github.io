@@ -1,0 +1,236 @@
+[
+    {
+        "template": "projects.html",
+        "context": {
+            "tags": [
+                {
+                    "id": "py",
+                    "content": "python"
+                },
+                {
+                    "id": "c",
+                    "content": "c/c++"
+                },
+                {
+                    "id": "ml",
+                    "content": "machine learning"
+                },
+                {
+                    "id": "cv",
+                    "content": "computer vision"
+                },
+                {
+                    "id": "ai",
+                    "content": "artificial intelligence"
+                },
+                {
+                    "id": "os",
+                    "content": "operating systems"
+                }       
+            ],
+            "projects": [
+                {
+                    "id": 1,
+                    "title": "Open Source Contributions",
+                    "content": "",
+                    "link": "",
+                    "tagids": "py ml",
+                    "tags": ["Python", "Machine Learning"]
+                },
+                {
+                    "id": 2,
+                    "title": "Structure From Motion Pipeline",
+                    "role": "Data Science Project Lead",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Network File Server",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Pager",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Thread Library",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 4,
+                    "title": "comp1",
+                    "role": "Computational Research Assistant",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 4,
+                    "title": "comp2",
+                    "role": "Computational Research Assistant",
+                    "content": "",
+                    "link": "",
+                    "tagids": "",
+                    "tags": []
+                },
+                {
+                    "id": 5,
+                    "title": "comp3",
+                    "role": "Computational Research Assistant",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "MapReduce",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "PageRank",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Client-Side Dynamic Pages",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 5,
+                    "title": "Portfolio Website",
+                    "role": "",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Panorama Generator (Image Stitching and Homography Rendering)",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Convolutional Neural Network From Scratch",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Dog Breed Classifier (Deep Learning)",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Processor Pipeline",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Cache Simulator",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Linker",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Assembler",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Puzzle Solver",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Hospitality Mortality Prediction",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Markov Decision Processes",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Geometric Analogy",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Hidden Markov Models",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Clustering",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                },
+                {
+                    "id": 7,
+                    "title": "Expectation Maximization and Gaussian Mixture Models",
+                    "content": "",
+                    "link": "",
+                    "tags": ""
+                }
+            ]
+        }
+    },
+    {
+        "template": "index.html",
+        "context": {}
+    },
+    {
+        "template": "resume.html",
+        "context": {}
+    },
+    {
+        "template": "contact.html",
+        "context": {}
+    }
+]

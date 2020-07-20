@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block pages %}
+							<li class="nav-item mr-lg-3">
+								<a class="nav-link" href="/">About</a>
+							</li>
+							<li class="nav-item mr-lg-3">
+								<a class="nav-link" href="projects.html">Projects</a>
+							</li>
+							<li class="nav-item mr-lg-3">
+								<a class="nav-link" href="resume.html">Resume</a>
+							</li>
+							<li class="nav-item active mr-lg-3">
+								<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+							</li>
+{% endblock %}
+{% block content %}
+	<section class="section py-5">
+		<div class="container">
+			<div class="row">
+				<div class="contact-intro col-lg-8 mx-lg-auto mb-5 text-center">
+
+					<img class="profile-image d-inline-block mx-auto rounded-circle mb-3"
+						src="assets/images/profile.jpg" alt="">
+
+					<div class="speech-bubble bg-white p-4 p-lg-5 shadow-sm">
+						Drop me an email at <a class="link-on-bg" href="mailto:justhube@umich.edu" target="_blank">justhube@umich.edu</a>.
+						</br></br>
+						<h6 class="font-weight-bold text-center mb-3">You can also find me here
+						</h6>
+
+						<ul class="social-list-color list-inline mb-0">
+							<li class="list-inline-item mb-3">
+								<a class="linkedin" href="https://www.linkedin.com/in/justhube" target="_blank">
+									<i class="fab fa-linkedin fa-fw"></i>
+								</a>
+							</li>
+							<li class="list-inline-item mb-3">
+								<a class="github" href="https://github.com/justin-huber" target="_blank">
+									<i class="fab fa-github fa-fw"></i>
+								</a>
+							</li>
+						</ul>
+						<!--//social-list-->
+					</div>
+
+				</div>
+
+			</div>
+			<!--//row-->
+		</div>
+		<!--//container-->
+	</section>
+	<!--//section-->
+{% endblock %}
