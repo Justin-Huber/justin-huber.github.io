@@ -2,40 +2,25 @@
     {
         "template": "projects.html",
         "context": {
-            "tags": [
-                {
-                    "id": "py",
-                    "content": "python"
-                },
-                {
-                    "id": "c",
-                    "content": "c/c++"
-                },
-                {
-                    "id": "ml",
-                    "content": "machine learning"
-                },
-                {
-                    "id": "cv",
-                    "content": "computer vision"
-                },
-                {
-                    "id": "ai",
-                    "content": "artificial intelligence"
-                },
-                {
-                    "id": "os",
-                    "content": "operating systems"
-                }       
-            ],
+            "tags": {
+                    "py": "python",
+                    "c": "c/c++",
+                    "ml": "machine learning",
+                    "cv": "computer vision",
+                    "ai": "artificial intelligence",
+                    "os": "operating systems",
+                    "sd": "system design",
+                    "ws": "web systems",
+                    "js": "html/css/js",
+                    "rest": "RESTful API"
+            },
             "projects": [
                 {
                     "id": 1,
                     "title": "Open Source Contributions",
                     "content": "",
                     "link": "",
-                    "tagids": "py ml",
-                    "tags": ["Python", "Machine Learning"]
+                    "tags": ["py", "ml"]
                 },
                 {
                     "id": 2,
@@ -43,28 +28,28 @@
                     "role": "Data Science Project Lead",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ml", "cv"]
                 },
                 {
                     "id": 7,
                     "title": "Network File Server",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["os", "c", "sd"]
                 },
                 {
                     "id": 7,
                     "title": "Pager",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["os", "c", "sd"]
                 },
                 {
                     "id": 7,
                     "title": "Thread Library",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["os", "c", "sd"]
                 },
                 {
                     "id": 4,
@@ -72,7 +57,7 @@
                     "role": "Computational Research Assistant",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ml"]
                 },
                 {
                     "id": 4,
@@ -80,8 +65,7 @@
                     "role": "Computational Research Assistant",
                     "content": "",
                     "link": "",
-                    "tagids": "",
-                    "tags": []
+                    "tags": ["py", "ml"]
                 },
                 {
                     "id": 5,
@@ -89,28 +73,28 @@
                     "role": "Computational Research Assistant",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["c"]
                 },
                 {
                     "id": 7,
                     "title": "MapReduce",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ws", "sd", "js"]
                 },
                 {
                     "id": 7,
                     "title": "PageRank",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ws", "sd", "js"]
                 },
                 {
                     "id": 7,
                     "title": "Client-Side Dynamic Pages",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ws", "js", "rest"]
                 },
                 {
                     "id": 5,
@@ -118,112 +102,151 @@
                     "role": "",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ws", "js"]
                 },
                 {
                     "id": 7,
                     "title": "Panorama Generator (Image Stitching and Homography Rendering)",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "cv", "ml"]
                 },
                 {
                     "id": 7,
                     "title": "Convolutional Neural Network From Scratch",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tagids": "",
+                    "tags": ["py", "cv", "ml"]
                 },
                 {
                     "id": 7,
                     "title": "Dog Breed Classifier (Deep Learning)",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "cv", "ml"]
                 },
                 {
                     "id": 7,
                     "title": "Processor Pipeline",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["c"]
                 },
                 {
                     "id": 7,
                     "title": "Cache Simulator",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["c"]
                 },
                 {
                     "id": 7,
                     "title": "Linker",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["c"]
                 },
                 {
                     "id": 7,
                     "title": "Assembler",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["c"]
                 },
                 {
                     "id": 7,
                     "title": "Puzzle Solver",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["c"]
                 },
                 {
                     "id": 7,
                     "title": "Hospitality Mortality Prediction",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tagids": "py ml",
+                    "tags": ["py", "ml"]
                 },
                 {
                     "id": 7,
                     "title": "Markov Decision Processes",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ml"]
                 },
                 {
                     "id": 7,
                     "title": "Geometric Analogy",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ml", "ai"]
                 },
                 {
                     "id": 7,
                     "title": "Hidden Markov Models",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ml"]
                 },
                 {
                     "id": 7,
                     "title": "Clustering",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ml"]
                 },
                 {
                     "id": 7,
                     "title": "Expectation Maximization and Gaussian Mixture Models",
                     "content": "",
                     "link": "",
-                    "tags": ""
+                    "tags": ["py", "ml"]
                 }
             ]
         }
     },
     {
         "template": "index.html",
-        "context": {}
+        "context": {
+            "tags": {
+                "py": "python",
+                "c": "c/c++",
+                "ml": "machine learning",
+                "cv": "computer vision",
+                "ai": "artificial intelligence",
+                "os": "operating systems",
+                "sd": "system design",
+                "ws": "web systems",
+                "js": "html/css/js",
+                "rest": "RESTful API"
+            },
+            "projects": [
+                {
+                    "id": 1,
+                    "title": "Open Source Contributions",
+                    "content": "",
+                    "link": "",
+                    "tags": ["py", "ml"]
+                },
+                {
+                    "id": 2,
+                    "title": "Structure From Motion Pipeline",
+                    "role": "Data Science Project Lead",
+                    "content": "",
+                    "link": "",
+                    "tags": ["py", "ml", "cv"]
+                },
+                {
+                    "id": 7,
+                    "title": "Network File Server",
+                    "content": "",
+                    "link": "",
+                    "tags": ["os", "c", "sd"]
+                }
+            ]
+        }
     },
     {
         "template": "resume.html",

@@ -41,8 +41,8 @@
 			<div class="text-center">
 				<ul id="filters" class="filters mb-5 mx-auto pl-0">
 					<li class="type active" data-filter="*">all</li>
-					{% for item in tags %}
-					<li class="type active" data-filter=".{{item.id}}">{{item.content}}</li>
+					{% for key, value in tags.items() %}
+					<li class="type" data-filter=".{{key}}">{{value}}</li>
 					{% endfor %}
 				</ul>
 				<!--//filters-->
@@ -51,14 +51,15 @@
 			<div class="project-cards row mb-5 isotope">
 				{% for item in projects %}
 				<!-- placeholder -->
-				<div class="isotope-item col-12 col-lg-4 {{item.tagids}}">
+				<div class="isotope-item col-12 col-lg-4 {% for tag in item.tags %}{{tag}} {% endfor %}">
 					<div class="card rounded-0 border-0 shadow-sm mb-5">
 						<div class="card-img-container position-relative">
-							<img class="card-img-top rounded-0" src="assets/images/projects/{{item.id}}.png"
+																					<!--"{{item.id}}.png"-->
+							<img class="card-img-top rounded-0" src="assets/images/projects/placeholder.png"
 								alt="">
 							<div class="card-img-overlay overlay-logo text-center">
 								<div class="project-logo">
-									<img class="img-fluid w-50" src="assets/images/projects/{{item.id}}.png">
+									<img class="img-fluid w-50" src="assets/images/projects/placeholder.png">
 								</div>
 							</div>
 							<a class="card-img-overlay overlay-content text-left p-lg-4"
@@ -78,7 +79,7 @@
 							<ul class="list-inline mb-0 mx-auto">
 								{% for tag in item.tags %}
 								<li class="list-inline-item">
-									<span class="badge badge-secondary badge-pill">{{tag}}</span>
+									<span class="badge badge-secondary badge-pill">{{tags[tag]}}</span>
 								</li>
 								{% endfor %}
 							</ul>

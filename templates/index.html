@@ -186,6 +186,8 @@
 									<i class="fas fa-check mr-2 text-primary"></i>Javascript</li>
 								<li class="mb-2">
 									<i class="fas fa-check mr-2 text-primary"></i>HTML/CSS</li>
+								<li class="mb-2">
+									<i class="fas fa-check mr-2 text-primary"></i>RESTful API</li>
 							</ul>
 						</div>
 						<!--//skills-block-inner-->
@@ -244,11 +246,15 @@
 								<li class="mb-2">
 									<i class="fas fa-check mr-2 text-primary"></i>Open Source</li>
 								<li class="mb-2">
+									<i class="fas fa-check mr-2 text-primary"></i>Test Driven Development</li>
+								<li class="mb-2">
 									<i class="fas fa-check mr-2 text-primary"></i>Git</li>
 								<li class="mb-2">
 									<i class="fas fa-check mr-2 text-primary"></i>Make</li>
 								<li class="mb-2">
 									<i class="fas fa-check mr-2 text-primary"></i>Linux (Ubuntu)</li>
+								<li class="mb-2">
+									<i class="fas fa-check mr-2 text-primary"></i>Command Line (Bash)</li>
 								<li class="mb-2">
 									<i class="fas fa-check mr-2 text-primary"></i>Windows</li>
 							</ul>
@@ -268,120 +274,48 @@
 		<div class="container">
 			<h3 class="section-title font-weight-bold text-center mb-5">Featured Projects</h3>
 
+			
 			<div class="project-cards row mb-5">
-
-				<!-- Open Source Contributions -->
-				<div class="col-12 col-lg-4">
-					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
+				{% for item in projects %}
+				<!-- placeholder -->
+				<div class="isotope-item col-12 col-lg-4 {% for tag in item.tags %}{{tag}} {% endfor %}">
+					<div class="card rounded-0 border-0 shadow-sm mb-5">
 						<div class="card-img-container position-relative">
-							<img class="card-img-top rounded-0" src="assets/images/placeholder.png"
-								alt="placeholder">
+																					<!--"{{item.id}}.png"-->
+							<img class="card-img-top rounded-0" src="assets/images/projects/placeholder.png"
+								alt="">
 							<div class="card-img-overlay overlay-logo text-center">
 								<div class="project-logo">
-									<img class="img-fluid w-50" src="assets/images/placeholder.png">
+									<img class="img-fluid w-50" src="assets/images/projects/placeholder.png">
 								</div>
 							</div>
 							<a class="card-img-overlay overlay-content text-left p-lg-4"
-								href="/404.shtml"
-								target="_blank">
-								<h5 class="card-title font-weight-bold">placeholder</h5>
-								<p class="card-text">placeholder
-								</p>
+								href="/404.shtml" target="_blank">
+								<h5 class="card-title font-weight-bold">{{item.title}}</h5>
+								<p class="card-text">{{item.content}}</p>
 								<h6 class="card-footer" style="padding: 0px;">Read More...</h6>
 							</a>
 						</div>
 						<div class="card-body pb-0">
 							<h4 class="card-title text-truncate text-center mb-0">
-								<a href="/404.shtml"
-									target="_blank">Open Source Contributions</a>
+								<a href="{{item.link}}"
+									target="_blank">{{item.title}}</a>
 							</h4>
 						</div>
-
 						<div class="card-footer border-0 text-center bg-white pb-4">
 							<ul class="list-inline mb-0 mx-auto">
+								{% for tag in item.tags %}
 								<li class="list-inline-item">
-									<span class="badge badge-secondary badge-pill">placeholder</span>
+									<span class="badge badge-secondary badge-pill">{{tags[tag]}}</span>
 								</li>
+								{% endfor %}
 							</ul>
 						</div>
 					</div>
 					<!--//card-->
 				</div>
-
-				<!-- Data Science Project Lead -->
-				<div class="col-12 col-lg-4">
-					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
-						<div class="card-img-container position-relative">
-							<img class="card-img-top rounded-0" src="assets/images/placeholder.png"
-								alt="placeholder">
-							<div class="card-img-overlay overlay-logo text-center">
-								<div class="project-logo">
-									<img class="img-fluid w-50" src="assets/images/placeholder.png">
-								</div>
-							</div>
-							<a class="card-img-overlay overlay-content text-left p-lg-4"
-								href="/404.shtml"
-								target="_blank">
-								<h5 class="card-title font-weight-bold">placeholder</h5>
-								<p class="card-text">placeholder
-								</p>
-								<h6 class="card-footer" style="padding: 0px;">Read More...</h6>
-							</a>
-						</div>
-						<div class="card-body pb-0">
-							<h4 class="card-title text-truncate text-center mb-0">
-								<a href="/404.shtml"
-									target="_blank">Data Science Project Lead</a>
-							</h4>
-						</div>
-
-						<div class="card-footer border-0 text-center bg-white pb-4">
-							<ul class="list-inline mb-0 mx-auto">
-								<li class="list-inline-item">
-									<span class="badge badge-secondary badge-pill">placeholder</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-
-				<!-- Software Engineer Project Lead -->
-				<div class="col-12 col-lg-4">
-					<div class="card rounded-0 border-0 shadow-sm mb-5 mb-lg-0">
-						<div class="card-img-container position-relative">
-							<img class="card-img-top rounded-0" src="assets/images/placeholder.png"
-								alt="placeholder">
-							<div class="card-img-overlay overlay-logo text-center">
-								<div class="project-logo">
-									<img class="img-fluid w-50" src="assets/images/placeholder.png">
-								</div>
-							</div>
-							<a class="card-img-overlay overlay-content text-left p-lg-4" href="/404.shtml"
-								target="_blank">
-								<h5 class="card-title font-weight-bold">placeholder</h5>
-								<p class="card-text">placeholder
-								</p>
-								<h6 class="card-footer" style="padding: 0px;">Read More...</h6>
-							</a>
-						</div>
-						<div class="card-body pb-0">
-							<h4 class="card-title text-truncate text-center mb-0">
-								<a href="/404.shtml" target="_blank">Software Engineer Project Lead</a>
-							</h4>
-						</div>
-
-						<div class="card-footer border-0 text-center bg-white pb-4">
-							<ul class="list-inline mb-0 mx-auto">
-								<li class="list-inline-item">
-									<span class="badge badge-secondary badge-pill">placeholder</span>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<!--//card-->
-				</div>
-
+				<!--//placeholder-item-->
+				{% endfor %}
 			</div>
 			<!--//row-->
 			<div class="text-center">
