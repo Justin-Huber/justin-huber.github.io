@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "biobase.html" %}
 {% block pages %}
 							<li class="nav-item active mr-lg-3">
 								<a class="nav-link" href="/">About<span class="sr-only">(current)</span></a>
@@ -13,28 +13,6 @@
 								<a class="nav-link" href="contact.html">Contact</a>
 							</li>
 {% endblock %}
-{% block bio %}
-		<div class="header-intro theme-bg-primary text-white py-5">
-			<div class="container">
-				<div class="profile-teaser media flex-column flex-md-row">
-					<img class="profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded-circle mx-auto"
-						src="assets/images/profile.jpg" alt="">
-					<div class="media-body text-center text-md-left">
-						<div class="lead">Hello, my name is</div>
-						<h2 class="mt-0 display-4 font-weight-bold">Justin Huber</h2>
-						<div class="bio mb-3">placeholder
-						</div>
-						<!--//bio-->
-						<a class="theme-btn-on-bg btn font-weight-bold theme-btn-cta" href="contact.html">Contact Me</a>
-					</div>
-					<!--//media-body-->
-				</div>
-				<!--//profile-teaser-->
-			</div>
-			<!--//container-->
-		</div>
-		<!--//header-intro-->
-{% endblock %}
 {% block content %}
 	<section class="skills-section section py-5">
 		<div class="container">
@@ -43,9 +21,7 @@
 			<div class="skills-blocks mx-auto pt-5">
 				<div class="row">
 					<div class="skills-block col-12 col-lg-7 mb-5 mb-3 mb-lg-3">
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder  
+						I attended the University of Michigan, graduating with a Bachelor's of Science in Engineering in both Data Science Engineering and Chemical Engineering.
 					</div>
 					
 					<div class="skills-block col-12 col-lg-5 mb-5 mb-3 mb-lg-3">
@@ -103,9 +79,12 @@
 					<!--//skills-block-->
 					
 					<div class="skills-block col-12 col-lg-6 mb-5 mb-3 mb-lg-0">
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
+						Outside of work I have several hobbies.
+						I enjoy gaming.
+						I enjoy traveling.
+						I enjoy learning languages.
+						I enjoy drawing.
+						I enjoy backpacking.
 					</div>
 					<!--//skills-block-->
 				</div>
@@ -115,9 +94,9 @@
 			<div class="skills-blocks mx-auto pt-5">
 				<div class="row">
 					<div class="skills-block col-12 col-lg-5 mb-5 mb-3 mb-lg-0">
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
-						placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder placeholder 
+						In school, I focused on strong fundamentals in both Data Science and Software Engineering.
+						On the Data Science side, I took notably machine learning, computer vision, and artificial intelligence.
+						On the Software Engineering side, I took notably operating systems and web systems.
 					</div>
 					<!--//skills-block-->
 					
@@ -326,22 +305,4 @@
 
 	</section>
 	<!--//featured-projects-->
-	
-	<section class="section-cta py-5 bg-primary text-white">
-		<div class="container">
-			<div class="text-center">
-				<img class="profile-small d-inline-block mx-auto rounded-circle mb-2" src="assets/images/profile.jpg"
-					alt="">
-			</div>
-			<h3 class="section-title font-weight-bold text-center mb-2">Want to reach out to me?</h3>
-			<div class="section-intro mx-auto text-center mb-3">
-				Drop me an email at
-				<a class="link-on-bg" href="mailto:justhube@umich.edu" target="_blank">justhube@umich.edu</a>.
-			</div>
-			<div class="text-center">
-				<a class="theme-btn-on-bg btn" href="contact.html">Contact Me</a>
-			</div>
-		</div>
-		<!--//container-->
-	</section>
 {% endblock %}

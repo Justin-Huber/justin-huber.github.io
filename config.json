@@ -3,15 +3,15 @@
         "template": "projects.html",
         "context": {
             "tags": {
-                    "py": "python",
-                    "c": "c/c++",
-                    "ml": "machine learning",
-                    "cv": "computer vision",
-                    "ai": "artificial intelligence",
-                    "os": "operating systems",
-                    "sd": "system design",
-                    "ws": "web systems",
-                    "js": "html/css/js",
+                    "py": "Python",
+                    "c": "C/C++",
+                    "ml": "Machine Learning",
+                    "cv": "Computer Vision",
+                    "ai": "Artificial Intelligence",
+                    "os": "Operating Systems",
+                    "sd": "System Design",
+                    "ws": "Web Systems",
+                    "js": "HTML/CSS/JS",
                     "rest": "RESTful API"
             },
             "projects": [
@@ -211,15 +211,15 @@
         "template": "index.html",
         "context": {
             "tags": {
-                "py": "python",
-                "c": "c/c++",
-                "ml": "machine learning",
-                "cv": "computer vision",
-                "ai": "artificial intelligence",
-                "os": "operating systems",
-                "sd": "system design",
-                "ws": "web systems",
-                "js": "html/css/js",
+                "py": "Python",
+                "c": "C/C++",
+                "ml": "Machine Learning",
+                "cv": "Computer Vision",
+                "ai": "Artificial Intelligence",
+                "os": "Operating Systems",
+                "sd": "System Design",
+                "ws": "Web Systems",
+                "js": "HTML/CSS/JS",
                 "rest": "RESTful API"
             },
             "projects": [
